@@ -43,7 +43,8 @@ def contact():
         # print(request.form.get("name"))
         # print(request.form["email"])
     return render_template('contact.html', page_title="Contact")
-# ignore env unused, ,it is used. 
+# ignore env unused, ,it is used
+
 
 @app.route("/careers")
 def careers():
